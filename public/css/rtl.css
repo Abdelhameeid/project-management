@@ -1,0 +1,527 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/*** start slide showe desigen***/
+
+.carousel-inner h1
+{
+    position: absolute;
+    z-index: 9999;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #fff;
+    font-size: 62px;
+    top: 30%;
+    right: 2%;
+    font-family: 'Tajawal', sans-serif;
+}
+.carousel-inner span
+{
+    background-color: #003366;
+    color: #fff;
+    padding: 2%;
+    display: inline-block
+}
+.carousel-inner .overly
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(00,00,00,.5);
+    position: absolute;
+    z-index: 999
+}
+.carousel-inner
+{
+    height: 585px;
+}
+/*** strart navgition**/
+.navbar-default
+{
+    border:none;
+    height: 65px;
+    border-radius: 0%;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    margin-bottom: 0px;
+    padding-bottom: 1%;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand img
+{
+   width: 110px;
+    height: 75px;
+    padding:0;
+    padding-top: 0
+}
+.navbar-nav {margin-top: 10px}
+.navbar-nav > li > a
+{
+    text-transform: capitalize;
+    font-size: 16px;
+    background-color: #fff;
+    font-family: 'Tajawal', sans-serif;
+}
+ .navbar-default .navbar-nav > .active >   a,
+.navbar-default .navbar-nav > .active >  a:hover,
+.navbar-default .navbar-nav > .active >  a:focus
+{
+    background-color: #fff;
+    color: #0099cc;
+    font-family: 'Tajawal', sans-serif;
+}
+.navbar-default .navbar-nav > li > a { color: #003366;font-family: 'Tajawal', sans-serif;}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > .open > a,.navbar-default .navbar-nav > .open > a:hover,.navbar-default .navbar-nav > .open > a:focus
+{
+    color: #0099cc;
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle{ margin-top: 15px}
+/*** start about section***/
+.about
+{
+    padding-bottom: 70px;
+    padding-top: 60px;
+    overflow: hidden;
+    background-color: #0099cc;
+    background: url('../img/author_bg.png');
+    background-repeat: no-repeat;
+    padding-bottom: 60px
+}
+.about .info { padding-left: 60px; padding-top: 40px}
+.about .info h2
+{
+    color: #0099cc;
+    text-transform: capitalize;
+    font-family: 'Tajawal', sans-serif;
+}
+.about .info li
+{
+    font-family: 'Tajawal', sans-serif;
+    padding: 3%;
+    padding-bottom: 1%;
+    text-transform: capitalize;
+}
+.about .info li .fa-check {margin-right: 1%;color: #0099cc}
+.about .info p
+{
+    text-transform: capitalize;
+    color: #43547F;
+    font-family: 'Tajawal', sans-serif;
+    padding: 20px;
+    color: #888;
+}
+.about .info a 
+{
+    padding: 2%;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Tajawal', sans-serif;
+    color: #0099cc;
+    display: inline-block;
+    border: 1px solid #0099cc;
+    font-weight: bold;
+    margin: 3%
+}
+.about .info a:hover
+{color: #fff; background-color: #0099cc}
+.about .company{ padding-left: 100px}
+.about .company img {width: 70%;height: 70%;}
+/*** start serveice section **/
+.featuer
+{
+    background-color: #0099cc;
+    background: url('../img/homegif.gif');
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+   background-repeat: no-repeat
+}
+.featuer h2
+{
+    text-transform: capitalize;
+    color: #0099cc;
+    font-family: 'Tajawal', sans-serif;
+    padding-top: 50px;
+}
+.featuer .feat{ padding-bottom: 100px}
+.featuer .feat img{padding: 3%; margin-top: 2%}
+.featuer p
+{
+    text-transform: capitalize;
+    padding-left: 20px;
+    color: #003366;
+    line-height: 20px;
+    padding: 2%;
+    width: 50%
+}
+.featuer h3
+{
+    text-transform: capitalize;
+    color: #0099cc;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/** start footer section **/
+.footer hr
+{
+    background-color: #0099cc
+}
+.footer .social li
+{
+    border-right: none;
+    display: inline-block;
+    border-radius: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #0099cc
+}
+.footer .social li a{display: block;padding-top: 20%}
+.footer .social li .fa-facebook-f , .footer .social li .fa-twitter , .footer .social li .fa-linkedin-in , .footer .social li .fa-youtube , .footer .social li .fa-instagram{color: #fff;}
+.footer .social li:hover {color: #fff;background-color: #003366}
+/** start blog section***/
+.blog-header img
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding-top: 0px;
+    margin-top: -20px
+}
+.blog 
+{
+    padding-bottom: 50px;
+    padding-bottom: 50px
+}
+.blog img
+{
+    width: 350px;
+    height: 350px;
+    padding-top: 40px
+}
+.blog h3
+{
+    color: #0099cc;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    direction: rtl;
+}
+.blog h4
+{
+    text-transform: capitalize;
+    font-family: 'Tajawal', sans-serif;
+    color: #003366;
+    direction: rtl;
+}
+.blog .blog1
+{
+    width: 350px;
+    background-color: white;
+    padding-bottom: 20px;
+    direction: rtl;
+    margin-right: 3%
+}
+.blog span
+{
+    opacity: 0.8;
+    padding-left: 20px;
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif
+}
+.blog .fa-calendar-check , .blog .fa-comments , .blog .fa-heart , .blog .fa-share
+{
+    opacity: 0.7;
+    color: red;
+}
+.update
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    direction: rtl;
+}
+.update .pic img
+{
+    width: 100%;
+    height: 550px;
+    direction: rtl
+}
+.update span
+{
+    opacity: 0.8;
+    padding-left: 50px;
+    direction: rtl
+}
+.update .fa-calendar-check , .update  .fa-comments , .update  .fa-heart , .update .fa-share , .update .fa-eye
+{
+    opacity: 0.7;
+    color: red;
+    direction: rtl
+}
+.update h1
+{
+    color: #003366;
+    text-transform: capitalize;
+    margin-top: -5px;
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+.update .artical hr
+{
+    width: 20%;
+    height: 3px;
+    background-color: #0099cc;
+    border: none;
+}
+.update p
+{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    direction: rtl
+    
+}
+
+/*** start service page ***/
+/*** start service page ***/
+.slide-serv .item img {width: 100%;background-size: cover}
+.slide-serv .caption  { margin-top: -20%; color: #0099cc;z-index: 9998;}
+.slide-serv .caption h1 {text-transform: capitalize;font-family: 'Tajawal', sans-serif;;text-align: center;display: inline-block;padding: 3% ; border: 1px solid #fff}
+.slide-serv .caption span{color: #003399}
+.serv {background-color:#f4f6fd;padding-bottom: 5%;padding-top: 5%}
+.serv .serv-sec{margin-bottom: 2%;margin-top: 2%;width: 30%;margin-right: 3%;padding: 2%;vertical-align: top}
+.serv .serv-sec .serv-text h3{font-weight: bold;text-transform: capitalize;color: #003366;font-size: 26px;padding: 3%;line-height: 1.5;font-family: 'Tajawal', sans-serif;}
+.serv .serv-sec .serv-text p {color: #888; padding: 4%;line-height: 2.2}
+.serv .serv-sec .serv-text a {color: #0099cc;text-decoration: none;padding: 5%;text-transform: capitalize;font-family: 'Tajawal', sans-serif;}
+.serv .serv-sec .serv-text a:hover {color: #003366}
+.serv .serv-sec:hover {background-color: #fff;    box-shadow: 0px 16px 32px 0px rgba(194, 194, 194)}
+/*** start portfolio ***/
+.portfolio1 .portfoloio-img img
+{
+    width: 100%;
+}
+.portfolio1
+{
+    margin-bottom: 5%;
+    padding: 1%;
+}
+.portfolio1 .portfolio-content
+{
+    position: absolute;
+    background-color: rgba(0,153,204,.7);
+    width:92%;
+    height: 92%;
+    padding: 3%;
+    color: #fff;
+    display: none
+}
+.portfolio1 .portfolio-content h2
+{
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 8%
+}
+.portfolio1 .portfolio-content p
+{
+    color: #003366;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 21px;
+    padding: 0;
+    margin-top: 0;
+}
+.portfolio1 .portfolio-content a
+{
+    font-family: 'Tajawal', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 21px;
+    padding: 3%;
+    background-color: #fff;
+    color: #0099cc;
+    text-decoration: none;
+    margin-left: 23%;
+    bottom: 10%;
+    position: absolute
+}
+.portfolio1 .portfoloio-img:hover > .portfolio-content
+{
+   display: block 
+}
+/*** end portfolio ***/
+.career
+{
+    padding-bottom: 50px;
+    padding-top:20px;
+    border: 1px solid #eee;
+    margin:2%;
+    margin-bottom: 10px
+}
+.career h1
+{
+    text-transform: capitalize;
+    color: #332d65
+}
+.career p
+{
+    text-transform: capitalize;
+    
+}
+.career .form-control
+{
+    text-transform: capitalize;
+    width: 70%
+    
+}
+.career .btn-primary
+{
+    background-color: #0099cc;
+    width: 20%;
+    border: none;
+    border-radius: 0
+}
+/***** start campain section***/
+.slide-campain .item img {width: 100%;background-size: cover}
+.slide-campain .caption-campain  { margin-top: -25%; color: #0099cc;z-index: 9998;}
+.slide-campain .caption-campain img {width: 200px;height: 200px}
+.slide-campain .caption-campain span{color: #003399}
+.campain {background-color:#fff; }
+.campain h1 {color: #0099cc; text-transform: capitalize; font-family: 'Tajawal', sans-serif;;padding: 2%;padding-left: 0}
+.campain .capmain-text p {color: #003366;text-transform: capitalize;line-height: 1.8;font-family: 'Tajawal', sans-serif; ; font-size: 15px;}
+.campain-detail {background-color: #f6f4f3;padding: 2%}
+.campain-detail span {font-size: 17px;vertical-align: top;margin-right: 2%;text-transform: capitalize;font-family: 'Tajawal', sans-serif;}
+.campain-images{margin-top: 5%}
+.campain-main-img img {width: 100%;height: 780px;padding-bottom: 5%}
+.campain-img img {width:100% ;height: 400px;vertical-align: bottom;padding: 5%;padding-top: 0}
+.campain-vedios{margin-top: 5%}
+.campain-main-img .embed-responsive {width: 100% ;height: 400px;padding-bottom: 5%}
+.campain-img .embed-responsive {width:100%;height: 180px;vertical-align: bottom;margin: 5%;margin-top: 0;}
+/***** end campain section***/
+/*** start about**/
+.slide-about .item img {width: 100%;background-size: cover}
+.slide-about .caption-about  { margin-top: -25%; color: #0099cc;z-index: 9998;}
+.slide-about .caption-about img {width: 200px;height: 200px}
+.slide-about .caption-about span{color: #003399}
+.about-header h1 {text-transform: capitalize;font-family: 'Tajawal', sans-serif;color: #0099cc;margin-top: 5% }
+.about-header p {text-transform: capitalize;font-family: 'Tajawal', sans-serif;color: #003366;line-height: 1.7;margin-top: 2%;opacity: .8;font-size: 19px;}
+.about-content {padding-bottom: 5%; padding-top: 5%}
+.about-content .about-content-img img {width: 100% ; height: 400px}
+.about-content .about-content-text h2 {text-transform: capitalize;font-family: 'Tajawal', sans-serif; ;color: #0099cc;margin-top: 5%;font-size: 45px}
+.about-content .about-content-text p {text-transform: capitalize;font-family: 'Tajawal', sans-serif; ;color: #003366;line-height: 1.7;margin-top: 2%}
+.about-content1 {padding-bottom: 5%; padding-top: 5%}
+.about-content1 .about-content-img img {width: 100% ; height: 400px}
+.about-content1 .about-content-text h2 {text-transform: capitalize;font-family: 'Tajawal', sans-serif; ;color: #0099cc;margin-top: 5%;font-size: 45px}
+.about-content1 .about-content-text p {text-transform: capitalize;font-family: 'Tajawal', sans-serif; ;color: #003366;line-height: 1.7;margin-top: 2%}
+.contact {background: url(../img/map.jpg);background-size: cover;background-repeat: no-repeat;margin-top: 5%}
+.contact .overly {background-color: rgba(0,153,204,.7); width: 100%;}
+.contact-form {background-color: #003366; padding: 5%;}
+.contact-form h5 {text-transform: capitalize;font-family: 'Tajawal', sans-serif; ;color: #fff;margin-top: 5%;font-size: 25px;margin-bottom: 5%}
+.contact-form .form-group input{width: 70%;margin: 2%; margin-right: 16%;color: #fff; border: none;background-color: rgba(00,153,204,.6);border-radius: 0}
+.contact-form .form-group textarea{width: 70%;margin: 2%; margin-left:0%;color: #fff; border: none;background-color: rgba(00,153,204,.6);border-radius: 0;height: 120px;resize: none;padding: 1%}
+.contact-form .btn { background-color: transparent ; color: #fff;font-family: 'Tajawal', sans-serif;;font-size: 30px;padding: 1%;border: 1px solid #fff;border-radius: 0;width: 150px;text-transform: capitalize}
+.contact-form .btn:hover {color: #0099cc ; background-color: #fff}
+.contact-text  {padding: 5%;padding-bottom: 0;padding-top: 1%}
+.contact-text  h5 {color: #fff;font-family: 'Tajawal', sans-serif;;font-size: 30px;text-transform: capitalize;vertical-align: middle}
+.contact-text li {color: #003366;padding: 2%;font-family: 'Tajawal', sans-serif;;font-size: 20px;text-transform: capitalize}
+/** end about **/
+/*** small screen***/
+@media (max-width:450px)and (min-width:320px)
+{
+.campain-images{margin-top: 5%}
+.campain-main-img img {width: 100%;height: 500px;margin-bottom: 5%}
+.campain-img img {width:100% ;height: 400px;vertical-align: bottom;padding: 5%;padding-top: 0}
+.campain-vedios{margin-top: 5%}
+.campain-main-img .embed-responsive {width: 100%;height: 400px;margin-bottom: 5%}
+.campain-img .embed-responsive {width:90%;height: 180px;vertical-align: bottom;margin: 5%;margin-top: 0;}
+}
+@media (max-width:768px)
+{
+    div.slide .form-group input
+    {
+        margin-left: 30%;
+        margin-bottom: 2%
+    }
+    .navbar-default
+    {
+        z-index: 99999
+    }
+    .cart-icon
+    {
+        z-index: 999
+    }
+    .img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img
+{
+    height: 400px;
+    width: 100%;
+    padding-top: 0;
+}
+div.slide .form-group {
+    position:absolute;
+    z-index:998;
+    background-color:rgba(245,245,245,.5);
+    width: 100%;
+    height: 400px;
+}
+  
+    .blog-header img
+    {
+        height: 130px
+    }
+     .update span
+    {
+        padding-right: 15px;
+    }
+    .update h1
+    {
+        margin-top: 8%
+    }
+   
+    .featuer p
+    {
+        width: 70%;
+        margin-left: 12%
+    }
+    .featuer .feat img
+{
+    
+    margin-left: 1% ;
+}
+
+}
+
+/*** small screen***/
+/** medieum screen**/
+@media (max-width:1199px)
+{
+   
+    .blog-header img
+    {
+        height: 200px
+    }
+     .update h1
+    {
+        margin-top: 8%
+    }
+    
+   
+}
+/** medieum screen**/
